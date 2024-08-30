@@ -21,7 +21,10 @@ const Content = () => {
                     Los conciertos eran un verdadero espectáculo en los que se hacían representaciones, 
                     muchas veces chocantes, para el público de esta década. <br /><br />
                     Guitarras eléctricas, bajos, batería y voces fuertes forman parte de uno de los géneros musicales 
-                    más potentes de la historia de la música.
+                    más potentes de la historia de la música. <br /><br />
+                    Las bandas más representativas del género en la década de los 70's fueron Sir Lord Baltimore, 
+                    Blue Öyster Cult, Aerosmith, Scorpions, AC/DC, Judas Priest, Nazareth, Kiss, Diamond 
+                    Head y Iron Maiden.
                 </p>
             </aside>
             <main>
