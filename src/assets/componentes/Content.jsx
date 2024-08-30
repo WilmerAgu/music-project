@@ -3,7 +3,7 @@ const Content = () => {
     return(
         <div className="container__main">
             <aside className="aside__container">
-                <h3>Historia</h3>
+                <h2>Historia</h2>
                 <br />
                 <p>
                     En 1968, en Birmingham, Inglaterra, aparece en escena 
@@ -26,7 +26,7 @@ const Content = () => {
             </aside>
             <main>
                 <section className="contenedor__bandas">
-                    <h3>Grandes bandas del Metal</h3>
+                    <h2>Grandes bandas del Metal</h2>
                     <br />
                     <ul>
                         <li>Black Sabbath</li>

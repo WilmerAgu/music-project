@@ -10,13 +10,16 @@ body {
   background-size: cover; 
   background-position: center; 
 }
-h3,h5{
+h3,h5, h2{
   color: #ffffff;
   text-align: center;
 }
 img {
   width: 150px;
   height: 150px;
+}
+p{
+  font-weight: 900;
 }
 
 header{
@@ -26,9 +29,8 @@ header{
   margin-bottom: 1rem;
   text-transform: uppercase;
   background: rgb(226,8,8);
-  background: linear-gradient(239deg, rgba(226,8,8,0.9678036131444765) 0%, rgba(121,25,9,0) 0%, rgba(66,14,5,0.4692041733685661) 8%, rgba(50,11,4,0.5280277027803308) 18%, rgba(16,4,2,0.6092601957775298) 23%, rgba(222,47,12,0.2451145375142244) 29%, rgba(4,2,1,0.7997363862537202) 75%, rgba(1,1,1,0.5952545935366333) 82%, rgba(79,1,1,1) 90%, rgba(177,0,0,0.16948428541338412) 97%, rgba(193,0,0,0) 100%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(239deg, rgba(226,8,8,0.9678036131444765) 0%, rgba(66,14,5,0.4692041733685661) 8%, rgba(50,11,4,0.5280277027803308) 18%, rgba(16,4,2,0.6092601957775298) 23%, rgba(222,47,12,0.2451145375142244) 60%, rgba(1,1,1,0.5952545935366333) 71%, rgba(79,1,1,1) 92%, rgba(177,0,0,0.16948428541338412) 97%, rgba(193,0,0,0) 100%, rgba(255,0,0,1) 100%, rgba(255,0,0,1) 145%);
 }
-
 .container__main{
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -40,7 +42,7 @@ header{
 .contenedor__bandas{
   padding: 20px; 
   background: rgb(226,8,8);
-  background: linear-gradient(239deg, rgba(226,8,8,0.9678036131444765) 0%, rgba(121,25,9,0) 0%, rgba(66,14,5,0.4692041733685661) 8%, rgba(50,11,4,0.5280277027803308) 18%, rgba(16,4,2,0.6092601957775298) 23%, rgba(222,47,12,0.2451145375142244) 29%, rgba(4,2,1,0.7997363862537202) 75%, rgba(1,1,1,0.5952545935366333) 82%, rgba(79,1,1,1) 90%, rgba(177,0,0,0.16948428541338412) 97%, rgba(193,0,0,0) 100%, rgba(255,0,0,1) 100%);
+  background: linear-gradient(239deg, rgba(226,8,8,0.9678036131444765) 0%, rgba(66,14,5,0.4692041733685661) 8%, rgba(50,11,4,0.5280277027803308) 18%, rgba(16,4,2,0.6092601957775298) 23%, rgba(222,47,12,0.2451145375142244) 60%, rgba(1,1,1,0.5952545935366333) 71%, rgba(79,1,1,1) 92%, rgba(177,0,0,0.16948428541338412) 97%, rgba(193,0,0,0) 100%, rgba(255,0,0,1) 100%, rgba(255,0,0,1) 145%);
   border-radius: 10px;
   margin: 20px auto; 
   display: block;
@@ -61,6 +63,7 @@ main {
 }
 .contenedor__bandas  ul{
   color: #ffffff;
+  font-weight: 800;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   list-style-type: none;
@@ -77,6 +80,7 @@ main {
 aside p{
   color: #ffffff;
 }
+
 footer{
   padding: 10px;
   
